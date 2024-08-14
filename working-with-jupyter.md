@@ -79,3 +79,71 @@ plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 plt.show()
 ```
+
+### Step 5: Example Exercise - Counting Words in Tweets
+
+In this exercise, you will learn how to load a CSV file containing tweets, count the number of words in each tweet, and visualize the results. This will give you hands-on experience with basic data manipulation in a Jupyter Notebook.
+
+#### 5.1. Install Required Libraries
+
+Before starting, make sure you have the necessary Python libraries installed. You can do this directly in your Jupyter Notebook by running the following command:
+
+```python
+!pip install pandas matplotlib
+```
+
+#### 5.2. Load the Dataset
+
+For this exercise, you can use a simple CSV file with a column named `tweet_text` that contains the text of the tweets. Here’s how you can load the CSV file into a Pandas DataFrame:
+
+```python
+import pandas as pd
+
+# Load the dataset
+df = pd.read_csv('tweets.csv')
+
+# Display the first few rows of the dataset
+df.head()
+```
+
+#### 5.3. Count the Number of Words in Each Tweet
+
+Next, you’ll count the number of words in each tweet. This is a basic operation that helps you get comfortable with working with text data.
+
+```python
+# Function to count words in a tweet
+def count_words(text):
+    return len(text.split())
+
+# Apply the function to the tweet_text column
+df['word_count'] = df['tweet_text'].apply(count_words)
+
+# Display the updated DataFrame
+df.head()
+```
+
+#### 5.4. Visualize the Word Count Distribution
+
+You can now visualize how many words are in the tweets by creating a simple bar chart.
+
+```python
+import matplotlib.pyplot as plt
+
+# Plot the distribution of word counts
+plt.hist(df['word_count'], bins=10, edgecolor='black')
+plt.title('Distribution of Word Counts in Tweets')
+plt.xlabel('Number of Words')
+plt.ylabel('Number of Tweets')
+plt.show()
+```
+
+#### 5.5. Interpret the Results
+
+Take a look at the bar chart you generated:
+
+Questions to consider:
+- What is the most common number of words in a tweet?
+- Are tweets typically short or long?
+- How does this distribution help you understand the nature of the tweets?
+
+This simple exercise introduces you to loading data, performing basic text analysis, and visualizing results—all essential skills in social media analysis.
