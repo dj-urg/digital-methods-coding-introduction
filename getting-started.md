@@ -89,5 +89,5 @@
 
 ## Final Step: Practice and Explore
 
-- Encourage students to explore VS Code by creating simple Python scripts and experimenting with basic Python operations.
-- They can also use ChatGPT or other resources to help with any questions as they start coding.
+- Explore VS Code by creating simple Python scripts and experimenting with basic Python operations.
+- You can also use ChatGPT or other resources to help with any questions as they start coding.
