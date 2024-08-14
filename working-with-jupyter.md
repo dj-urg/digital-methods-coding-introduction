@@ -17,7 +17,7 @@ A Jupyter Notebook is an open-source, web-based application that allows you to c
 
 ### Step 1: Install Python
 
-Before you can work with Jupyter Notebooks in VS Code, you need to have Python installed on your system. If you haven't already installed Python, please refer to the [Step-by-Step Manual for Installing VS Code and Python] (https://github.com/dj-urg/digital-methods-coding-introduction/blob/main/getting-started.md)) for detailed instructions.
+Before you can work with Jupyter Notebooks in VS Code, you need to have Python installed on your system. If you haven't already installed Python, please refer to the [Step-by-Step Manual for Installing VS Code and Python](https://github.com/dj-urg/digital-methods-coding-introduction/blob/main/getting-started.md) for detailed instructions.
 
 ### Step 2: Install the Jupyter Extension
 
