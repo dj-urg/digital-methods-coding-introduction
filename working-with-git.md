@@ -1,8 +1,8 @@
-# Working with Git and Github
+# Working with Git and Github in VSCode
 
 ### Getting Started with Git and GitHub
 
-In this section, you will learn how to set up a GitHub account, understand the basics of Git, and clone a repository into your local environment. This will allow you to start working with the data and projects available in this repository.
+In this section, you will learn how to set up a GitHub account, understand the basics of Git, and clone a repository into your local VSCode environment. This will allow you to start working with the data and projects available in this repository.
 
 #### 1. Setting Up a GitHub Account
 
@@ -24,41 +24,57 @@ Why use Git and GitHub?
 - **Collaboration**: Multiple people can work on the same project simultaneously, merging their contributions seamlessly.
 - **Backup and Sharing**: GitHub provides an online backup for your code and makes it easy to share with others.
 
-### 3. Cloning a Repository
+# Setting Up Your Environment in Visual Studio Code (VSCode)
 
-Cloning a repository means creating a local copy of a project hosted on GitHub. Here’s how you can do it using Visual Studio Code (VSCode):
+## 1. Install Git
+   - **Windows**: 
+     - Download Git from the [official website](https://git-scm.com/) and follow the installation instructions.
+     - Ensure Git is accessible from the command line. During installation, choose "Git from the command line and also from 3rd-party software" as an option.
+   - **macOS**: 
+     - Install Git using Homebrew by running the following command in the terminal:
+       ```bash
+       brew install git
+       ```
+   - **Linux**: 
+     - Install Git using your package manager. For example, on Debian/Ubuntu:
+       ```bash
+       sudo apt-get install git
+       ```
+       
+## 2. Install Visual Studio Code (VSCode)
+   - Download Visual Studio Code from the [official website](https://code.visualstudio.com/).
+   - Follow the installation instructions provided for your operating system.
+   - Launch VSCode after installation.
 
-1. **Install Git**:
-   - On Windows, download Git from the [official website](https://git-scm.com/) and follow the installation instructions.
-   - On macOS, you can install Git using Homebrew: `brew install git`.
-   - On Linux, you can install Git using the package manager: `sudo apt-get install git`.
+## 3. Cloning a Repository Using VSCode
 
-2. **Install Visual Studio Code (VSCode)**:
-   - Download VSCode from the [official website](https://code.visualstudio.com/) and follow the installation instructions.
+### 3.1 Open VSCode
+   - Double-click on the VSCode icon to launch the application.
 
-3. **Open VSCode**:
-   - Once installed, open VSCode. 
+### 3.2 Use the Built-in Terminal
+   - VSCode has a built-in terminal which you can use to run Git commands.
+   - Open the terminal by navigating to the menu `View` -> `Terminal` or using the shortcut ``Ctrl+` `` (backtick).
 
-4. **Use the Built-in Terminal**:
-   - VSCode has a built-in terminal which you can use to run Git commands. Open the terminal by navigating to the menu `View` -> `Terminal` or using the shortcut ``Ctrl+` `` (backtick).
+### 3.3 Navigate to the Directory Where You Want to Clone the Repository
+   - In the VSCode terminal, type the following command:
+     ```bash
+     cd /path/to/your/directory
+     ```
+   - Replace `/path/to/your/directory` with the path to the folder where you want to clone the repository.
 
-5. **Navigate to the Directory** where you want to clone the repository:
-   ```bash
-   cd /path/to/your/directory
-   ```
-
-6. **Clone the Repository**:
+### 3.4 Clone the Repository
    - Go to the repository page on GitHub that you want to clone.
    - Click the "Code" button and copy the URL.
    - In the VSCode terminal, type the following command:
      ```bash
      git clone https://github.com/your-username/your-repository.git
      ```
+   - Replace `https://github.com/your-username/your-repository.git` with the URL you copied.
 
-   Replace `https://github.com/your-username/your-repository.git` with the URL you copied.
-
-7. **Open the Cloned Repository in VSCode**:
-   - After cloning, open the repository directly in VSCode by selecting `File` -> `Open Folder...` and navigating to the cloned repository folder.
+### 3.5 Open the Cloned Repository in VSCode
+   - After cloning, open the repository directly in VSCode:
+     - Select `File` -> `Open Folder...` from the menu.
+     - Navigate to the cloned repository folder and click `Open`.
 
 8. **Explore and Edit the Repository**:
    - You can now browse the files, edit them, and use all of VSCode's features to work on the project.
