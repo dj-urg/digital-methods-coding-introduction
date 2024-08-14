@@ -1,6 +1,6 @@
 # Working with Git and Github in VSCode
 
-### Getting Started with Git and GitHub
+## Getting Started with Git and GitHub
 
 In this section, you will learn how to set up a GitHub account, understand the basics of Git, and clone a repository into your local VSCode environment. This will allow you to start working with the data and projects available in this repository.
 
@@ -75,9 +75,6 @@ Why use Git and GitHub?
    - After cloning, open the repository directly in VSCode:
      - Select `File` -> `Open Folder...` from the menu.
      - Navigate to the cloned repository folder and click `Open`.
-
-8. **Explore and Edit the Repository**:
-   - You can now browse the files, edit them, and use all of VSCode's features to work on the project.
 
 ### 4. Working with the Cloned Repository
 
