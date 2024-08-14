@@ -2,7 +2,7 @@
 
 ### Getting Started with Git and GitHub
 
-In this section, you will learn how to set up a GitHub account, understand the basics of Git, and clone a repository into your local environment. This will allow you to start working with the data and projects available in the repository.
+In this section, you will learn how to set up a GitHub account, understand the basics of Git, and clone a repository into your local environment. This will allow you to start working with the data and projects available in this repository.
 
 #### 1. Setting Up a GitHub Account
 
