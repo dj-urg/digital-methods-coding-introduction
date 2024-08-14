@@ -66,18 +66,25 @@ Markdown cells can be used to add headers, lists, links, images, and more:
 One of the powerful features of Jupyter Notebooks is the ability to visualize data inline. Here's how you can do it:
 
 ```python
-import matplotlib.pyplot as plt
-import numpy as np
-
-# Example plot
-x = np.linspace(0, 10, 100)
-y = np.sin(x)
-
-plt.plot(x, y)
-plt.title("Sine Wave")
-plt.xlabel("X-axis")
-plt.ylabel("Y-axis")
-plt.show()
+  import matplotlib.pyplot as plt
+  import pandas as pd
+  
+  # Example data: Public trust in government over years
+  data = {
+      "Year": [2000, 2005, 2010, 2015, 2020],
+      "Trust_in_Government": [45, 40, 35, 30, 25]  # Percentage of people who trust the government
+  }
+  
+  # Convert the data into a DataFrame
+  df = pd.DataFrame(data)
+  
+  # Plotting the data
+  plt.plot(df["Year"], df["Trust_in_Government"], marker='o')
+  
+  # Adding title and labels
+  plt.title("Public Trust in Government Over Time")
+  plt.xlabel("Year")
+  plt.ylabel("Percentage of People Who Trust the Government")
 ```
 
 ### Step 5: Example Exercise - Analyzing YouTube Video Categories
