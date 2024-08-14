@@ -81,17 +81,26 @@
 
 # Step 5: Explore and Customize VS Code (Optional)
 
-### Install Additional Extensions
+### Practical VS Code Extensions for Beginners
 
 VS Code's flexibility and extensibility come from its vast library of extensions. Here are some recommended extensions to enhance your coding experience:
 
-- **GitLens**: Supercharge the Git capabilities built into VS Code. It allows you to visualize code authorship at a glance, navigate through Git repositories, and much more.
-- **Prettier**: An opinionated code formatter that enforces a consistent style by parsing your code and reprinting it with its own rules.
-- **Bracket Pair Colorizer**: This extension highlights matching brackets with colors, making it easier to see which brackets match in your code.
-- **Python Docstring Generator**: Automatically generate docstrings for your Python functions and methods according to your preferred style (e.g., Google, Sphinx).
-- **Live Server**: Launch a local development server with a live reload feature for static and dynamic pages.
-- **Markdown Preview Enhanced**: If you're working with Markdown files, this extension provides a rich preview of your content, including LaTeX equations, diagrams, and more.
-- **Jupyter**: As mentioned earlier, this extension is essential for those working with Jupyter Notebooks within VS Code.
+- **Python**: Essential for any Python development. This extension provides rich support for Python, including IntelliSense, linting, debugging, and more.
+
+- **Jupyter**: If you're working with Jupyter Notebooks, this extension allows you to create, edit, and run Jupyter notebooks directly in VS Code.
+
+- **Prettier**: An opinionated code formatter that helps enforce consistent style across your codebase. It automatically formats your code on save, ensuring it adheres to best practices.
+
+- **Live Server**: Launch a local development server with a live reload feature for static and dynamic pages. This is incredibly useful for web development, allowing you to see changes in real-time as you code.
+
+- **Bracket Pair Colorizer**: This extension highlights matching brackets with different colors, making it easier to navigate complex code, especially when dealing with nested structures.
+
+- **GitLens**: Enhances the Git capabilities built into VS Code. It allows you to visualize code changes, see who made what changes, and explore the history of your files. It's an excellent tool for learning and managing version control.
+
+- **Python Docstring Generator**: Automatically generates docstrings for your Python functions and methods according to your preferred style (e.g., Google, Sphinx). This is particularly useful for writing clean, well-documented code.
+
+- **Markdown All in One**: Provides comprehensive support for Markdown files, including shortcuts for formatting, table of contents generation, and more. It's a simpler alternative to Markdown Preview Enhanced, making it easier for beginners to work with Markdown documents.
+
 
 To install these extensions:
 1. Click on the **Extensions** view icon on the sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X`).
@@ -117,26 +126,9 @@ VS Code allows you to customize nearly every aspect of your development environm
 - **Auto-Save**: Enable auto-saving of files as you work.
   - Go to **File > Auto Save** and choose the delay interval or trigger (e.g., "afterDelay" or "onWindowChange").
 
-- **Code Snippets**: Create custom code snippets to speed up your workflow.
-  - Go to **File > Preferences > User Snippets** and select the language for which you want to create a snippet.
-  - Define your snippets using the provided JSON format.
-
 - **Integrated Terminal Customization**: Customize the look of the integrated terminal (e.g., shell, colors).
   - Go to **File > Preferences > Settings** and search for "Terminal".
   - You can change the `"Terminal > Integrated: Shell"` setting to specify which shell to use (e.g., Bash, PowerShell).
-
-### Explore Debugging Capabilities
-
-VS Code has powerful debugging tools built in. Here’s how to get started with debugging Python code:
-
-- **Start Debugging**:
-  - Set breakpoints in your code by clicking in the gutter to the left of the line numbers.
-  - Press `F5` to start debugging or go to **Run > Start Debugging**.
-  - The Debug view will open, showing variables, call stack, and a terminal where you can step through your code, inspect variables, and evaluate expressions.
-
-- **Launch Configurations**:
-  - Customize how your application is launched during debugging by creating a `launch.json` file.
-  - Go to the Debug view and click **create a launch.json file**. This will open a configuration file where you can specify different environments, command-line arguments, and more.
 
 ### Explore Git and Version Control
 
