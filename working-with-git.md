@@ -4,7 +4,16 @@
 
 In this section, you will learn how to set up a GitHub account, understand the basics of Git, and clone a repository into your local VSCode environment. This will allow you to start working with the data and projects available in this repository.
 
-#### 1. Setting Up a GitHub Account
+#### 1. Introduction to Git and GitHub
+
+**Git** is a version control system that lets you track changes to files and collaborate with others. **GitHub** is a cloud-based platform that hosts Git repositories, making it easier to manage and share your projects.
+
+Why use Git and GitHub?
+- **Version Control**: Track changes in your project, revert to previous states, and collaborate with others without conflicts.
+- **Collaboration**: Multiple people can work on the same project simultaneously, merging their contributions seamlessly.
+- **Backup and Sharing**: GitHub provides an online backup for your code and makes it easy to share with others.
+
+#### 2. Setting Up a GitHub Account
 
 Before you can clone a repository, you need a GitHub account. Follow these steps to create one:
 
@@ -14,15 +23,6 @@ Before you can clone a repository, you need a GitHub account. Follow these steps
 4. Complete the sign-up process by following the on-screen instructions.
 
 Once your account is created, you can log in and start using GitHub.
-
-#### 2. Introduction to Git and GitHub
-
-**Git** is a version control system that lets you track changes to files and collaborate with others. **GitHub** is a cloud-based platform that hosts Git repositories, making it easier to manage and share your projects.
-
-Why use Git and GitHub?
-- **Version Control**: Track changes in your project, revert to previous states, and collaborate with others without conflicts.
-- **Collaboration**: Multiple people can work on the same project simultaneously, merging their contributions seamlessly.
-- **Backup and Sharing**: GitHub provides an online backup for your code and makes it easy to share with others.
 
 # Setting Up Your Environment in Visual Studio Code (VSCode)
 
